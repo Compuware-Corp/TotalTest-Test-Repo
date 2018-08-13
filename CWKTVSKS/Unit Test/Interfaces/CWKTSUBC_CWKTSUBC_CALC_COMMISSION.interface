@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.4.v20171127-2310_42?>
+<!--Topaz for Total Test 18.2.4.v20171127-2310_42 Nov 29, 2017 1:14:24 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWKTSUBC_CWKTSUBC_CALC_COMMISSION.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWKTSUBC_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTSUBC_CWKTSUBC_EMP-TYPE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKTSUBC_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKTSUBC_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWKTSUBC_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTSUBC_CWKTSUBC_CALC-SALES.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKTSUBC_CWKTSUBC_CALC-SALES.listructure#CALC_SALES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKTSUBC_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWKTSUBC_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTSUBC_CWKTSUBC_CALC-COMMISSION.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKTSUBC_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKTSUBC_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
