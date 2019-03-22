@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 21-nov-2018 15:30:06-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00001: DXFT1Case1" tests="3">
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00001: DXFT1Case1" name="00001: Check for DXFT1_FNK_KD"/>
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00001: DXFT1Case1" name="00002: Check for DXFT1_IPT_DS"/>
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00001: DXFT1Case1" name="00003: Check for DXFT1_OPT_DS"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00002: DXFT1Case2" tests="3">
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00002: DXFT1Case2" name="00001: Check for DXFT1_FNK_KD"/>
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00002: DXFT1Case2" name="00002: Check for DXFT1_IPT_DS"/>
+    <testcase classname="com.kbc.dxi.ttt.nno.DXFT1_Scenario.00002: DXFT1Case2" name="00003: Check for DXFT1_OPT_DS"/>
+  </testsuite>
+</testsuites>

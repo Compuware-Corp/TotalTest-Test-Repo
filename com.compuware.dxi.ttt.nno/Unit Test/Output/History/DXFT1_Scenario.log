@@ -1,0 +1,92 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR036W License check finished with warnings ������������������������������������������������������������
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2018-11-21 16:02.20
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite DXFT1_Sc
+ STTR014I Processing test scenario DXFT1_Sc
+ STTR028I Processing test case DXFT1Cas
+ STTR006I Executing target DXFT1
+ STTR028I Processing test case ��������
+ STTR006I Executing target DXFT1
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = DXFT1   , epName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = DXFT1   , epName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = DXFT1   , csectName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2018325, Length = 25
+   data = c4e7c6e3f161f6c5c3f5f2c3f8c361c1c4e7f0f0f0f0f3f6f8
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---BNDTARGT---entry
+ --->>>modName = DXFT1   , epName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = DXFT1   , epName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = DXFT1   , csectName = DXFT1
+ ---openW_includeName---entry
+ --->>>moduleName = DXFT1
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2018325, Length = 25
+   data = c4e7c6e3f161f6c5c3f5f2c3f8c361c1c4e7f0f0f0f0f3f6f8
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit

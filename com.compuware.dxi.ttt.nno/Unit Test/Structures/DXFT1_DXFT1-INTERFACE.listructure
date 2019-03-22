@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 21-nov-2018 15:56:17-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/DXFT1_DXFT1-INTERFACE.listructure">
+  <listructure:struct id="DXFT1_INTERFACE" name="DXFT1_INTERFACE">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">54</properties:property>
+      <properties:property name="displayLength" type="number">54</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="DXFT1_INTERFACE.DXFT1_FNK_KD" length="2" name="DXFT1_FNK_KD">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(02)</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(02)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DXFT1_INTERFACE.DXFT1_IPT_DS" length="26" name="DXFT1_IPT_DS">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(26)</properties:property>
+        <properties:property name="storageLength" type="number">26</properties:property>
+        <properties:property name="displayLength" type="number">26</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(26)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="DXFT1_INTERFACE.DXFT1_OPT_DS" length="26" name="DXFT1_OPT_DS">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(26)</properties:property>
+        <properties:property name="storageLength" type="number">26</properties:property>
+        <properties:property name="displayLength" type="number">26</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(26)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>
