@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xariscal">
+  <Test>
+    <Component label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+      <Data>
+        <Import>
+          <Customer>
+            <Age>10</Age>
+          </Customer>
+        </Import>
+        <Export>
+          <Risc expected="20" />
+        </Export>
+      </Data>
+    </Component>
+  </Test>
+  <MetaData>
+    <Component name="XARISCAL" type="COBOL">
+      <INOUT>
+        <Import>
+          <Customer>
+            <Age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+          </Customer>
+        </Import>
+        <Export>
+          <Risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+        </Export>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>

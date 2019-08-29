@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="Integrationtest Batch" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
+  <ExtensionData />
+  <ExtensionData componentName="xariscal" componentId="5c6a9e6a1e30ca5e918f7eef">
+    <Parameter key="loadlibrary">
+      <Value>ENTQA.TTT.PDSE.LOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="TestScenario.xaunit" />
+</ExecutionContext>
