@@ -5,6 +5,12 @@ ${TOTALTEST_JOBCARD}
 //********************************************************************
 //RUNNER EXEC PGM=TTTRUNNR
 //*
+//* You need to modify the following DD statements.
+//*
+//* The first DD statement should be changed to the loadlib 
+//* containing the Topaz for Total Test 'TTTRUNNR" program.
+//*
+//* The second DD statement should be changed to the loadlib
 //* containing the programs to run during the test.
 //*
 //STEPLIB DD DSN=CX.R170000.SMPE.SLCXLOAD,DISP=SHR
@@ -26,7 +32,7 @@ ${TOTALTEST_JOBCARD}
 EXIT(NONE)
 *
 REPEAT(${TOTALTEST_REPEAT}),STUBS(${TOTALTEST_STUBS}),
-DEBUG(ON)
+DEBUG(OFF)
 /* 
 //BININP DD DSN=${TOTALTEST_BININP},DISP=OLD
 //BINREF DD DSN=${TOTALTEST_BINREF},DISP=OLD
@@ -45,6 +51,5 @@ DEBUG(ON)
 //*      Optionally add your custom DD statements
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR
 //SYSPRINT DD SYSOUT=*
-
 
 
