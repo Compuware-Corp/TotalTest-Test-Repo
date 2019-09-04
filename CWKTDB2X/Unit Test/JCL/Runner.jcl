@@ -5,17 +5,9 @@ ${TOTALTEST_JOBCARD}
 //********************************************************************
 //RUNNER EXEC PGM=TTTRUNNR
 //*
-//* You need to modify the following DD statements.
-//*
-//* The first DD statement should be changed to the loadlib 
-//* containing the Topaz for Total Test 'TTTRUNNR" program.
-//*
-//* The second DD statement should be changed to the loadlib
 //* containing the programs to run during the test.
 //*
-//STEPLIB DD DSN=KT.TRUNK.HLD1.LOAD,DISP=SHR
-//        DD DSN=CX.R170000.SMPE.SLCXLOAD,DISP=SHR
-//*        DD DSN=KT.CW121512.COB42.LOAD,DISP=SHR
+//STEPLIB DD DSN=CX.R170000.SMPE.SLCXLOAD,DISP=SHR
 //        DD DSN=KT.CW121512.COB61.LOAD,DISP=SHR
 //        DD DSN=ENTQA.TTT.PDSE.LOAD,DISP=SHR
 //        DD DSN=KT.DB2SQL.DB210.COB51.LOAD,DISP=SHR
