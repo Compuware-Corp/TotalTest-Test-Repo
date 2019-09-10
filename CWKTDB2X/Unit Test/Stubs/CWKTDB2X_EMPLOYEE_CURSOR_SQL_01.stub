@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL_01.stub" nextCalltoken="40033" stubtype="SQL CURSOR" target="Open" token="40000">
-  <stub:description>Created: Sep 10, 2019 10:59:28 AM</stub:description>
+  <stub:description>Created: Sep 10, 2019 12:45:19 PM</stub:description>
   <stub:stubdata id="0" name="Open">
     <stub:interface>../Interfaces/CWKTDB2X_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
     <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">

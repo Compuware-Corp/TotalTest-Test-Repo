@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_Select_1_SQL_01.stub" nextCalltoken="10003" stubtype="SQL" target="Select" token="10000">
-  <stub:description>Created: Sep 10, 2019 10:59:20 AM</stub:description>
+  <stub:description>Created: Sep 10, 2019 12:45:17 PM</stub:description>
   <stub:stubdata id="0" name="Select">
     <stub:interface>../Interfaces/CWKTDB2X_Select_1_in_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Select_1_in_EMP_NUM.interface</stub:interface>
     <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure">

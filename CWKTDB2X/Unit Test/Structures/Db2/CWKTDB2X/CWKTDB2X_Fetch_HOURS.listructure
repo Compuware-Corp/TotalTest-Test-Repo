@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190904-0343_93?>
-<!--Topaz for Total Test 19.6.1.v20190904-0343_93 Sep 10, 2019 10:59:31 AM-->
+<?totaltestVersion 19.6.1.v20190910-0347_99?>
+<!--Topaz for Total Test 19.6.1.v20190910-0347_99 Sep 10, 2019 12:45:20 PM-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
   <listructure:struct id="HOURS" name="HOURS">
     <properties:properties>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190904-0343_93?>
-<!--Topaz for Total Test 19.6.1.v20190904-0343_93 Sep 10, 2019 10:59:22 AM-->
+<?totaltestVersion 19.6.1.v20190910-0347_99?>
+<!--Topaz for Total Test 19.6.1.v20190910-0347_99 Sep 10, 2019 12:45:18 PM-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
   <listructure:struct id="TODAYS_DATE" name="TODAYS_DATE">
     <properties:properties>
