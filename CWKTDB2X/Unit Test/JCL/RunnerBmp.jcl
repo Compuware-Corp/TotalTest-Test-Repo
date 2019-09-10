@@ -37,7 +37,12 @@ ${TOTALTEST_JOBCARD}
 //*        DD DSN=IMS.DBDLIB,DISP=SHR   NEEDED IF GSAM USED
 //* INCLUDE ALL DD STATEMENTS NEEDED BY THE TARGET BMP PROGRAM 
 //*    
-//SYSUDUMP DD SYSOUT=*        
+//SYSUDUMP DD SYSOUT=*
+//* The following lines will initialize storage to zeroes to avoid 
+//* uninitialized storage assertion miscompares. 
+//CEEOPTS  DD  *
+STORAGE(00,00,00)
+/*       
 //TRPARM DD *   
 *             
 *        OPTIONALLY SET YOUR CUSTOM EXIT PROGRAM HERE: 
