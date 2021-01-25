@@ -1,10 +1,11 @@
-${TOTALTEST_JOBCARD}
+//TOTALTST  JOB ('OXTBAS17DEV'),'TESTER',       
+//       CLASS=A,MSGCLASS=R,NOTIFY=&SYSUID,REGION=0M     
 /*JOBPARM S=*
 //* INSERT JOBCARD HERE                                               
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH               
 //*** AS NOTIFY=&SYSUID AND ALSO A REGION=0M PARAMETER                
 //*                                                                   
-//*******************************************************************
+//********************************************************************
 //* EXECUTE TARGET RUNNER FOR PROGRAM CWKTVSKS                        
 //* COPY THIS JCL INTO A NEW RUNNER.JCL MEMBER IN A                   
 //* TOPAZ FOR TOTAL TEST PROJECT JCL FOLDER                           
@@ -18,8 +19,8 @@ ${TOTALTEST_JOBCARD}
 //*  CWKTVSKS TOPAZ FOR TOTAL TEST PROGRAM                            
 //********************************************************************
 //*                                                                   
-//STEPLIB DD DISP=SHR,DSN=CX.R170000.SMPE.SLCXLOAD               
-//        DD DISP=SHR,DSN=ENTQA.TTT.PDSE.LOAD                     
+//STEPLIB DD DISP=SHR,DSN=CX.R170000.SMPE.SLCXLOAD                    
+//        DD DISP=SHR,DSN=ENTQA.TTT.PDSE.LOAD                         
 //********************************************************************
 //* NOTE THAT THE EMPFILE DD IS ONLY REQUIRED IF YOU WISH TO RUN      
 //* THE TEST WITH USE STUBS = NO                                      
@@ -38,7 +39,7 @@ ${TOTALTEST_JOBCARD}
 EXIT(NONE)                                               
 *                                                        
 REPEAT(${TOTALTEST_REPEAT}),STUBS(${TOTALTEST_STUBS}),   
-DEBUG(ON)                                               
+DEBUG(OFF)                                               
 /*                                                       
 //BININP DD DSN=${TOTALTEST_BININP},DISP=OLD             
 //BINREF DD DSN=${TOTALTEST_BINREF},DISP=OLD             
@@ -48,3 +49,4 @@ DEBUG(ON)
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR              
 //SYSPRINT DD SYSOUT=*                                   
 //*                                                        
+
