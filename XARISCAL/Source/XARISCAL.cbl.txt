@@ -1,0 +1,53 @@
+000010 cbl test                                                         00001001
+000100 Identification division.                                         00002001
+000200 Program-id.   XaRisCal.                                          00003001
+000300 Author.       Compuware Corporation.                             00004001
+000310******************************************************************00005001
+000320* THESE MATERIALS CONTAIN CONFIDENTIAL INFORMATION AND           *00006001
+000330* TRADE SECRETS OF COMPUWARE CORPORATION.  USING, DISCLOSING,    *00007001
+000340* OR REPRODUCING THESE MATERIALS IS STRICTLY PROHIBITED UNLESS   *00008001
+000350* REQUIRED BY OR AUTHORIZED BY LAW OR ADVANCE WRITTEN PERMISSION *00009001
+000360* HAS BEEN GIVEN BY COMPUWARE CORPORATION.                       *00010001
+000370*                                                                *00020001
+000380* COPYRIGHT (C) 2018 COMPUWARE CORPORATION.                      *00030001
+000390* ALL RIGHTS RESERVED.                                           *00031001
+000391******************************************************************00032001
+000400 environment division.                                            00033001
+000500 Input-Output section.                                            00034001
+000600 File-control.                                                    00035001
+000700 Data Division.                                                   00036001
+000800 File Section.                                                    00037001
+000900 Working-Storage Section.                                         00038001
+002300 linkage section.                                                 00039001
+002301                                                                  00040001
+002302 01 Import.                                                       00050001
+002303    03 Customer.                                                  00060001
+002304       05 Age                    pic 9(03).                       00070001
+002305                                                                  00080001
+002306 01 Export.                                                       00090001
+002307    03 Risc                      pic 9(03).                       00100001
+002500                                                                  00110001
+002600 Procedure division using Import Export.                          00120001
+002700                                                                  00130001
+002900 Main section.                                                    00140001
+003003                                                                  00150001
+003004     Perform CalculateRisc.                                       00160001
+003008                                                                  00170001
+003009     Goback.                                                      00180001
+003010                                                                  00190001
+003011 CalculateRisc Section.                                           00200001
+003012                                                                  00210001
+003013     Move zero to Risc.                                           00220001
+003014                                                                  00230001
+003015     if Age < 18                                                  00240001
+003020        compute Risc = Age * +2                                   00250001
+003021        end-if                                                    00260001
+003022                                                                  00270001
+003040     if Age >= 18 and Age < 50                                    00280001
+003041        compute Risc = Age * +3                                   00290001
+003042        end-if                                                    00300001
+003043                                                                  00301001
+003044     if Age > 50                                                  00302001
+003045        compute Risc = Age * +4                                   00303001
+003090        end-if                                                    00304001
+003091     .                                                            00305001
